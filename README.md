@@ -56,6 +56,15 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 
 ### 版本概览
 
+#### 1.5 
+
+* 添加TOTP功能
+
+##### 测试
+
+- [x] TOTP和google的Authenticator进行对比校验过，确保一致！
+
+
 #### 1.6
 
 ##### new feature
