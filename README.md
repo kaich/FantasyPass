@@ -3,7 +3,7 @@
     <img width="200" height="200" src="./Icon_256.png">
   </a>
 
-  <h1>Kimurai</h1>
+  <h1>FantasyPass</h1>
 </div>
 
 
@@ -51,7 +51,7 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 
 日常常用功能基本都包含了，是一个功能强大、便捷的Keepass客户端。
 
-*** 特别说明： 由于本项目包含了太多其他项目的代码，目前不合适开源。本人发誓不包含任何窃取密码的行为，如果不放心可自行抓包进行确认FantasyPass的安全性。
+*** 特别说明： 由于本项目包含了太多其他项目的代码，目前不合适开源。本人发誓不包含任何窃取密码的行为，如果不放心可自行抓包进行确认FantasyPass的安全性。***
 
 
 ### 版本概览
