@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://github.com/vfreefly/kimurai">
-    <img width="312" height="200" src="https://hsto.org/webt/_v/mt/tp/_vmttpbpzbt-y2aook642d9wpz0.png">
+  <a href="https://github.com/kaich/FantasyPass">
+    <img width="200" height="200" src="./Icon_256.png">
   </a>
 
   <h1>Kimurai</h1>
