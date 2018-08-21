@@ -85,6 +85,7 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 
 ### TODO
 
+- [ ] 提供IOS12的兼容AutoFill功能，有了这个功能就非常方便了。
 - [ ] 同步Stop方法实现，避免退出同步界面仍然弹出同步窗口，例如dropbox
 - [ ] UI细节调整
 - [ ] 图片识别二维码功能，方便取出附件二维码内容
