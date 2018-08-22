@@ -47,9 +47,9 @@
 
 * $.fetch
 
-```
-fetch(url: String, params: [String : Any], completeHandler: function)
-```
+    ```
+    fetch(url: String, params: [String : Any], completeHandler: function)
+    ```
 
    * 参数说明：
 
@@ -78,10 +78,9 @@ fetch(url: String, params: [String : Any], completeHandler: function)
 
 * $.setPasteboard 
 
-```
-setPasteboard(str: String)
-```
-
+    ```
+    setPasteboard(str: String)
+    ```
 
    * 参数说明：
 
