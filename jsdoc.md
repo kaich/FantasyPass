@@ -51,7 +51,7 @@
 fetch(url: String, params: [String : Any], completeHandler: function)
 ```
 
-    * 参数说明：
+   * 参数说明：
 
         名称 | 说明
         --- | ---
@@ -83,7 +83,7 @@ setPasteboard(str: String)
 ```
 
 
-    * 参数说明：
+   * 参数说明：
 
         名称 | 说明
         --- | ---
