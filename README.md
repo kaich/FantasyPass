@@ -82,6 +82,10 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 - [x] dropbox 同步、下载 
 - [x] onedriver 同步、下载 
 
+#### 1.7 
+
+* 提供Javascript API编写扩展功能，具体参见[JS 文档](./jsdoc.md)
+
 
 ### TODO
 
