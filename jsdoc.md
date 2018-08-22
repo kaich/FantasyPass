@@ -25,20 +25,21 @@
 
 ### 行操作（详情里面增、删、改动一行）
 
-* 添加一行 
+* $.appendRow 
 
     ```
     appendRow(sectionTitle: String, sectionIndex: Int, rowType: String, key: String, value: String)
     ```
 
-    参数说明：
+    * 参数说明：
 
-    名称 | 说明
-    --- | ---
-    sectionTitle | 章节名称
-    sectionIndex | 章节位置
-    rowType | 行类型，目前支持： FPLabelRow
-    key | 键，既是唯一标识也是现实的标题
-    value | 值
+        名称 | 说明
+        --- | ---
+        sectionTitle | 章节名称
+        sectionIndex | 章节位置
+        rowType | 行类型，目前支持： FPLabelRow
+        key | 键，既是唯一标识也是现实的标题
+        value | 值
 
+    * 说明:
 *
