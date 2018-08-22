@@ -27,6 +27,8 @@
 
 * $.appendRow 
 
+    添加行
+
     ```
     appendRow(sectionTitle: String, sectionIndex: Int, rowType: String, key: String, value: String)
     ```
@@ -43,9 +45,59 @@
 
     * 说明: 一个或多个Row组成Section。
 
+## 提示框
+
+* $.alert 
+
+    显示Alert弹出框
+
+    ```
+    alert(title: String, message: String)
+    ```
+
+    * 参数说明：
+
+        名称 | 说明
+        --- | ---
+        title | 标题
+        message | 内容
+
+
+* $.toast 
+
+    显示toast提示
+
+    ```
+    toast(message: String)
+    ```
+
+    * 参数说明：
+
+        名称 | 说明
+        --- | ---
+        message | 内容
+
+
+* $.whisper 
+
+    显示whisper提示框
+
+    ```
+    whisper(title: String, message: String)
+    ```
+
+    * 参数说明：
+
+        名称 | 说明
+        --- | ---
+        title | 标题
+        message | 内容
+
 ### HTTP请求 
 
 * $.fetch
+
+    发送get、post、put等请求
 
     ```
     fetch(url: String, params: [String : Any], completeHandler: function)
@@ -78,6 +130,8 @@
 ### 粘贴板 
 
 * $.setPasteboard 
+
+    复制内容到粘贴板
 
     ```
     setPasteboard(str: String)
