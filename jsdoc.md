@@ -23,7 +23,7 @@
 
 ## API文档
 
-### 行操作（详情里面增、删、改动一行）
+### UI 
 
 * $.appendRow 
 
@@ -41,5 +41,51 @@
         key | 键，既是唯一标识也是现实的标题
         value | 值
 
-    * 说明:
-*
+    * 说明: 一个或多个Row组成Section。
+
+### HTTP请求 
+
+* $.fetch
+
+```
+fetch(url: String, params: [String : Any], completeHandler: function)
+```
+
+    * 参数说明：
+
+        名称 | 说明
+        --- | ---
+        url | url地址
+        params | 包含 method、parameters、headers字段。
+        completeHandler | 完成回调, 返回字符串
+
+    * params: 
+        * method: GET、HEAD、POST、PUT
+        * parameters: [String: Any], 传递的参数
+        * headers: [String: String] 请求头
+
+    * 实例:
+        ```
+        let url = "https://raw.githubusercontent.com/kaich/FantasyPass/master/example.json"
+        $.fetch(url, {}, function(responseString) {
+            let json = JSON.parse(responseString)
+            let code = json.results[0].imdbID
+            $.appendRow("Active Code", 3, "FPLabelRow", "code", code)
+        });
+        ```
+
+### 粘贴板 
+
+* $.setPasteboard 
+
+```
+setPasteboard(str: String)
+```
+
+
+    * 参数说明：
+
+        名称 | 说明
+        --- | ---
+        str | 要复制的文字 
+
