@@ -10,7 +10,7 @@
 * 多种云盘、WebDAV同步支持
 * 1password的支持
 
-但是作为每个人用途不一向，难免会需要自定义一些简单的需求，特别是会一些开发的人。特别是一些简单的： `HTTP请求 -> 解析 -> 显示 -> 拷贝`。如果需要这么简单的操作，但是FantasyPass又并不支持这样功能。就我日常就有这样的需求，例如：定期更改自己服务的密码，这个HTTP必须保密，为了保密，我想把它放到FantasyPass里面去。但是我不能为了我一个人的需求，把这个并不通用的功能去传递给所有人。因此决定写Javascript扩展API，提供大家自定义简单功能。
+但是每个人用途不一，难免会需要自定义一些简单的需求，特别是开发者。特别是一些简单的需求： `HTTP请求 -> 解析 -> 显示 -> 拷贝`。如果需要这么简单的操作，但是FantasyPass又并不支持这样功能，但是又不想自己写一个App。就我日常就有这样的需求，例如：定期更改自己服务的密码，这个HTTP必须保密，为了保密，我想把它放到FantasyPass里面去。但是我不能为了我一个人的需求，把这个并不通用的功能去传递给所有人。因此决定写Javascript扩展API，提供大家自定义简单功能。
 
 ## 特性
 
@@ -60,9 +60,10 @@
         completeHandler | 完成回调, 返回字符串
 
     * params: 
-        * method: GET、HEAD、POST、PUT
-        * parameters: [String: Any], 传递的参数
-        * headers: [String: String] 请求头
+        * method: String。 GET、HEAD、POST、PUT
+        * parameters: [String: Any]。 传递的参数
+        * encoding: String。 参数的编码，url、json、plist
+        * headers: [String: String]。 请求头
 
     * 实例:
         ```
@@ -88,3 +89,7 @@
         --- | ---
         str | 要复制的文字 
 
+
+## 结语
+
+|- 初版不提供太多功能，之后有需求会陆续添加
