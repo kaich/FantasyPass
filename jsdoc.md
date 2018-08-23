@@ -26,7 +26,7 @@
 由于Javascript都是自己写的，因此你必须把它作为附件添加到登录项里面。具体步骤如下：
 
 * 电脑上编写Javascript脚本程序
-* 把Javascript放到你的Iphone上的文件程序里面。如果是mac，直接用AirDrop就可以发送给Iphone
+* 把Javascript放到你的iPhone上的文件程序里面。如果是Mac，直接用AirDrop就可以发送给iPhone
 * 打开FantasyPass，进入登陆项详情。点击添加附件 -> 文档 -> 选择JS文件 -> 完成添加
 * 进入附件详情，点击运行即可
 
