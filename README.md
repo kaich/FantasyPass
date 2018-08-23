@@ -48,6 +48,7 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 * 支持添加附件和显示附件的功能
 * 支持常用云同步的功能：Dropbox、OneDrive、iCloud Drive、WebDAV。WebDAV可以支持国内的坚果云，具体设置方式看[坚果云WebDAV 设置教程](http://help.jianguoyun.com/?p=2064)
 * 支持TOTP功能
+* 支持JS编写扩展程序的功能
 
 日常常用功能基本都包含了，是一个功能强大、便捷的Keepass客户端。
 
@@ -84,7 +85,17 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 
 #### 1.7 
 
-* 提供Javascript API编写扩展功能，具体参见[JS 文档](./jsdoc.md)
+* 新增添加文档作为附件的方式
+* 提供Javascript API编写扩展的功能，具体参见[JS扩展文档](./jsdoc.md)
+* 支持了javascript作为附件，JS代码高亮显示，并且执行的功能。具体参看帮助文档。
+* 新增删除附件的功能
+* 修复只有没有密码，只有keyfile无法打开的问题
+
+##### 测试
+
+- [x] 提供Javascript API编写扩展的功能
+- [x] 新增删除附件的功能
+- [x] 修复只有没有密码，只有keyfile无法打开的问题
 
 
 ### TODO
@@ -96,7 +107,7 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 - [ ] 从其他App中（例如QQ、微信等）文件中选取文件作为附件
 - [ ] 对FantasyPass键盘进行调整，让它更方便使用
 - [ ] 提供网站网页视频等使用帮助
-- [ ] 提供JS实现扩展功能。
+- [ ] 提供JS实现扩展功能，具体参见[JS扩展](./jsdoc.md)。
 
 ### 反馈
 
