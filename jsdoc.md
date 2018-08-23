@@ -30,6 +30,8 @@
 * 打开FantasyPass，进入登陆项详情。点击添加附件 -> 文档 -> 选择JS文件 -> 完成添加
 * 进入附件详情，点击运行即可
 
+<img src="./IMG_4237.PNG" alt="Javascript Plugin" width="300" />
+
 ## API文档
 
 ### UI 
