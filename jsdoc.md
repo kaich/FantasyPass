@@ -10,7 +10,7 @@
 * 多种云盘、WebDAV同步支持
 * 1password的支持
 
-但是每个人用途不一，难免会需要自定义一些简单的需求，特别是开发者。特别是一些简单的需求： `HTTP请求 -> 解析 -> 显示 -> 拷贝`。如果需要这么简单的操作，但是FantasyPass又并不支持这样功能，但是又不想自己写一个App。就我日常就有这样的需求，例如：定期更改自己服务的密码，这个HTTP必须保密，为了保密，我想把它放到FantasyPass里面去。但是我不能为了我一个人的需求，把这个并不通用的功能去传递给所有人。因此决定写Javascript扩展API，提供大家自定义简单功能。
+但是每个人用途不一，难免会需要自定义一些简单的需求，特别是开发者。例如一些简单的需求： `HTTP请求 -> 解析 -> 显示 -> 拷贝`。如果需要这么简单的操作，但是FantasyPass又并不支持这样功能，但是又不想自己写一个App。就我日常就有这样的需求，例如：定期更改自己服务的密码，这个HTTP必须保密，为了保密，我想把它放到FantasyPass里面去。但是我不能为了我一个人的需求，把这个并不通用的功能去传递给所有人。因此决定写Javascript扩展API，提供大家自定义简单功能。
 
 ## 特性
 
@@ -20,6 +20,15 @@
     * 允许执行，不提示
     * 禁止Javascript Api执行
 * 控制范围。 Javascript API 只能删除和修改，Javascript API增加的属性。保证主要数据的安全性。
+
+## 安装步骤
+
+由于Javascript都是自己写的，因此你必须把它作为附件添加到登录项里面。具体步骤如下：
+
+* 电脑上编写Javascript脚本程序
+* 把Javascript放到你的Iphone上的文件程序里面。如果是mac，直接用AirDrop就可以发送给Iphone
+* 打开FantasyPass，进入登陆项详情。点击添加附件 -> 文档 -> 选择JS文件 -> 完成添加
+* 进入附件详情，点击运行即可
 
 ## API文档
 
@@ -118,6 +127,7 @@
         * headers: [String: String]。 请求头
 
     * 实例:
+    * 
         ```
         let url = "https://raw.githubusercontent.com/kaich/FantasyPass/master/example.json"
         $.fetch(url, {}, function(responseString) {
