@@ -97,7 +97,7 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 - [x] 新增删除附件的功能
 - [x] 修复只有没有密码，只有keyfile无法打开的问题
 
-#### 1.7 
+#### 1.8
 
 * 添加通知小插件，方便快速添加自定义字段, 参见[通知小插件文档](./today_extension_doc.md)。
 * 自定义键盘，支持JS插件执行
