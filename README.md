@@ -49,6 +49,7 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 * 支持常用云同步的功能：Dropbox、OneDrive、iCloud Drive、WebDAV。WebDAV可以支持国内的坚果云，具体设置方式看[坚果云WebDAV 设置教程](http://help.jianguoyun.com/?p=2064)
 * 支持TOTP功能
 * 支持JS编写扩展程序的功能
+* 只是SSH终端连接和操作
 
 日常常用功能基本都包含了，是一个功能强大、便捷的Keepass客户端。
 
@@ -108,6 +109,16 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 * 新增云同步失败提示
 * 修复部分UI细节问题
 * 完善帮助文档
+
+#### 1.9 
+
+* 添加对SSH终端的支持
+* 登录项详情编辑里面新增SSH登录项开关
+* URL增加对IP或者IP:PORT方式的支持
+* JS附件展示性能优化
+* 自动云同步
+* 修复Javascript开关问题
+* 增加了登录项列表显示样式；设置增加了样式选择
 
 ### TODO
 
