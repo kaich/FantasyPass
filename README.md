@@ -138,13 +138,20 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 * 修复部分已知Bug。
 
 
+#### 3.0
+
+* 添加了引用复制功能
+* 添加了Google Drive支持
+* 修复一些问题和添加一些细节处理。具体参见苹果商店更新描述。
+
+
 ### TODO
 
 - [x] 提供IOS12的兼容AutoFill功能，有了这个功能就非常方便了。
 - [ ] 同步Stop方法实现，避免退出同步界面仍然弹出同步窗口，例如dropbox
 - [ ] UI细节调整
 - [ ] 图片识别二维码功能，方便取出附件二维码内容
-- [ ] 从其他App中（例如QQ、微信等）文件中选取文件作为附件
+- [x] 从其他App中（例如QQ、微信等）文件中选取文件作为附件
 - [ ] 对FantasyPass键盘进行调整，让它更方便使用
 - [ ] 提供网站网页视频等使用帮助
 - [ ] 提供JS实现扩展功能，具体参见[JS扩展](./jsdoc.md)。
@@ -152,4 +159,5 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 ### 反馈
 
 如果有任何任何问题，请直接联系我。如果有新功能需求，请在Appstore添加issue，并在Appstore评论区添加反馈。我会根据优先级添加！
+本网站内容逐步向[](http://www.fantasypass.cn)迁移中。
 
