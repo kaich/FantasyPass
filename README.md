@@ -159,5 +159,5 @@ https://itunes.apple.com/cn/app/fantasypass/id1357961740?mt=8
 ### 反馈
 
 如果有任何任何问题，请直接联系我。如果有新功能需求，请在Appstore添加issue，并在Appstore评论区添加反馈。我会根据优先级添加！
-本网站内容逐步向[](http://www.fantasypass.cn)迁移中。
+本网站内容逐步向[FantasyPass官网](http://www.fantasypass.cn)迁移中。
 
